@@ -1,0 +1,45 @@
+{
+    "name": "vue-cypress",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "test:e2e": "vue-cli-service test:e2e",
+        "test:unit": "vue-cli-service test:unit",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ferdinand McDaniel Amano",
+    "license": "ISC",
+    "dependencies": {
+        "core-js": "^3.6.5",
+        "vue": "^2.6.11",
+        "vuetify": "^2.4.0"
+    },
+    "devDependencies": {
+        "@cypress/vue": "^2.2.3",
+        "@cypress/webpack-dev-server": "^1.6.0",
+        "@vue/cli-plugin-babel": "^4.5.0",
+        "@vue/cli-plugin-e2e-cypress": "^4.5.0",
+        "@vue/cli-plugin-eslint": "^4.5.0",
+        "@vue/cli-plugin-unit-mocha": "^4.5.0",
+        "@vue/cli-service": "^4.5.0",
+        "@vue/test-utils": "^1.0.3",
+        "babel-eslint": "^10.1.0",
+        "chai": "^4.1.2",
+        "cypress": "^8.4.1",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.2.2",
+        "html-webpack-plugin": "^4.5.2",
+        "sass": "~1.32.0",
+        "sass-loader": "^10.0.0",
+        "vue-cli-plugin-vuetify": "^2.4.1",
+        "vue-template-compiler": "^2.6.11",
+        "vuetify-loader": "^1.7.3",
+        "webpack": "^4.39.1",
+        "webpack-cli": "^3.3.6",
+        "webpack-notifier": "^1.5.0"
+    }
+}
